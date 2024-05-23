@@ -12,6 +12,7 @@
   "dependencies": {
     "@aws-amplify/geo": "^3.0.29",
     "@aws-amplify/ui-react": "^6.1.9",
+    "@aws-amplify/ui-react-geo": "^2.0.16",
     "@loaders.gl/3d-tiles": "^4.2.1",
     "aws-amplify": "^6.2.0",
     "deck.gl": "^9.0.14",
