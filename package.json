@@ -10,13 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/geo": "^3.0.29",
-    "@aws-amplify/ui-react": "^6.1.9",
+    "@aws-amplify/geo": "^3.0.33",
+    "@aws-amplify/ui-react": "^6.1.12",
     "@aws-amplify/ui-react-geo": "^2.0.16",
-    "@loaders.gl/3d-tiles": "^4.2.1",
-    "aws-amplify": "^6.2.0",
-    "deck.gl": "^9.0.14",
+    "aws-amplify": "^6.3.4",
+    "deck.gl": "8.9.35",
+    "loaders.gl": "^0.3.5",
     "maplibre-gl-js-amplify": "^4.0.0",
+    "math.gl": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
