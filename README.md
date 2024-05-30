@@ -15,6 +15,18 @@ $ amplify -v
 12.11.1
 ```
 
+## How to develop
+
+### aws-exports
+
+You must change file name of aws-exports.js to aws-exports.ts.
+
+The js file is created every time when you add changes to backend configuration by `amplify add` or `amplify remove`.
+
+### 3D tiles
+
+This sample renders [Plateau 3D tiles](https://github.com/Project-PLATEAU/plateau-streaming-tutorial/blob/main/3d-tiles/plateau-3dtiles-streaming.md).
+
 ## How to deploy
 
 ```bash
@@ -42,9 +54,9 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
 };

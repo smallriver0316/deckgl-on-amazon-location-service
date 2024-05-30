@@ -7,9 +7,6 @@ export default defineConfig({
   define: {
     global: {},
   },
-  server: {
-    port: 3000,
-  },
   resolve: {
     alias: {
       './runtimeConfig': './runtimeConfig.browser',
